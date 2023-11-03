@@ -24,7 +24,7 @@
                 <p>Bangkit Cloud Computing Student</p>
             </div>
             <div>
-                <img src="/foto.jpeg" alt="Profile Photo" />
+                <img src="https://storage.googleapis.com/submission-deploy-bucket/foto.jpeg" alt="Profile Photo" />
             </div>
         </div>
         <div class="left-container">
