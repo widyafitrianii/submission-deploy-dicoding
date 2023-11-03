@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(61, 61, 61);
+}
+
+.main {
+    display: flex;
+    position: relative;
+}
+
+.name-container {
+    background-color: rgb(74, 136, 194);
+    width: 100%;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.name-container > div > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.name-container > div > p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.name-container > div > img {
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.left-container {
+    background-color: rgb(26, 49, 80);
+    color: white;
+    padding: 0 20px;
+    padding-top: 220px;
+}
+
+.left-group {
+    padding-right: 50px;
+}
+
+.left-first-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-first-group > .entry {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.left-container > hr {
+    color: white;
+    margin: 30px 0;   
+}
+
+.language-group > h1 {
+    margin-bottom: 20px;
+}
+
+.language-group > span {
+    margin-left: 20px;
+}
+
+.right-container {
+    width: 600px;
+    background-color: white;
+    padding: 0 20px;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.right-group > .title-group {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.title-group > hr {
+    width: 100%;
+}
+
+.list {
+    list-style: disc outside none;
+    display: list-item;
+    font-weight: bold;
+}
+
+.right-group > .content-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.right-group > .content-group > .education {
+    display: flex;
+    flex-direction: column;
+}
